@@ -10,5 +10,5 @@ img = Image.open("images/room.png")
 img_hd = img.resize((img.width * 2, img.height * 2), Image.LANCZOS)
 
 img_hd.save("images/room_hd.png")
-st.image("images/room_hd.png", caption="Relax in comfort at our luxury suite", width=450)
+st.image("images/room_hd.png", caption="Relax in comfort at our luxury suite", width=250)
 
